@@ -15,6 +15,6 @@ export const inicializarFormulario = () => {
 
         const resultadoEvaluacion=esPrimo(numeroIngresado);
         parrafoResultado.textContent= resultadoEvaluacion ? `${numeroIngresado} es primo` :                                                    
-                                                            `${numeroIngresado} no es pirmo`;
+                                                            `${numeroIngresado} no es primo`;
     })
 }
